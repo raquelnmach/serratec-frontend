@@ -10,25 +10,39 @@
 </head>
 
 <body>
-    <h1>Cadastrar Filmes</h1>
-    <form action="" method="get">
-        <div>
-            <label for="nome-filme">Nome do filme:</label>
-            <input type="text" id="nome-filme" placeholder="Insira o nome do filme" size="40">
-        </div>
-        <div>
-            <label for="data">Data de lançamento:</label>
-            <input type="date" id="data">
-        </div>
-        <div>
-            <label for="sinopse">Sinopse do filme:</label>
-            <input type="text" id="sinopse" placeholder="Insira aqui a snopse do filme." size="120">
-        </div>
-        <div>
-            <label for="capa">Insira a capa do filme:</label>
-            <input type="file" id="capa">
-        </div>
+    <header>
+        <hgroup>
+            <img src="img/Serraflix-logo.png" alt="Logo do Serraflix" width="15%" height="15%">
+            <h1 style="color: rgb(220, 20, 40); margin-left: 20%;margin-top: -6%;">Bem-vindo ao Serraflix!
+            </h1>
+        </hgroup>
 
+    </header>
+    <section>
+        <h1>Cadastrar Filmes</h1>
+        <form action="" method="get">
+            <div>
+                <label for="nome-filme">Nome do filme:</label>
+                <input type="text" id="nome-filme" placeholder="Insira o nome do filme" size="40">
+            </div>
+            <div>
+                <label for="data">Data de lançamento:</label>
+                <input type="date" id="data">
+            </div>
+            <div>
+                <label for="sinopse">Sinopse do filme:</label>
+                <input type="text" id="sinopse" placeholder="Insira aqui a snopse do filme." size="120">
+            </div>
+            <div>
+                <label for="capa">Insira a capa do filme:</label>
+                <input type="file" id="capa">
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </section>
+    <section>
         <h1>Filmes Cadastrados</h1>
         <table border="1.2">
             <thead>
@@ -45,7 +59,7 @@
                     <td>07/04/2006</td>
                     <td>Após uma guerra mundial, a Inglaterra é ocupada por um governo fascista e vive sob um regime totalitário. Na luta pela liberdade, um vigilante, conhecido apenas como V, utiliza-se de táticas terroristas para enfrentar os opressores
                         da sociedade. V salva uma jovem chamada Evey da polícia secreta e encontra nela uma nova aliada em busca de liberdade e justiça para o seu país.</td>
-                    <td><img src="img/v-for-vendetta.jpg" alt="Capa do filme V de Vingança" width="25%" height="25%"></td>
+                    <td><img src="img/v-for-vendetta.jpg" alt="Capa do filme V de Vingança" width="25%" height="25%" style="padding-left: 40%;"></td>
                 </tr>
                 <tr>
                     <td>Watchmen</td>
@@ -53,12 +67,11 @@
                     <td>Quando um de seus antigos colegas é assassinado, o vigilante mascarado Rorschach descobre um plano para matar e desacreditar todos os super-heróis do passado e do presente. À medida que ele se reconecta com sua antiga legião de combate
                         ao crime, um grupo desorganizado de super-heróis aposentados, dentre os quais somente um possui verdadeiros poderes, Rorschach vislumbra uma ampla e perturbadora conspiração que está ligada ao passado deles e a catastróficas consequências
                         para o futuro.</td>
-                    <td><img src="img/Watchmen.jpg" alt="Capa do filme Watchmen" width="25%" height="25%"></td>
+                    <td><img src="img/Watchmen.jpg" alt="Capa do filme Watchmen" width="25%" height="25%" style="padding-left: 40%;"></td>
                 </tr>
             </tbody>
-
         </table>
-    </form>
+    </section>
 </body>
 
 </html>
