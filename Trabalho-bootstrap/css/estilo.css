@@ -1,0 +1,10 @@
+@import "utf-8";
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(229, 9, 20)!important;
+}
